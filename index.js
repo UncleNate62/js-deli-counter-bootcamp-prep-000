@@ -21,7 +21,7 @@ function currentLine(katzDeli) {
       katzDeliLineDisplay = katzDeliLineDisplay + (i + 1) + ". " + katzDeli[i];
       do {
         katzDeliLineDisplay = katzDeliLineDisplay + ", ";
-      } while (i <> katzDeli.length)
+      } while (i != katzDeli.length)
     }
   return katzDeliLineDisplay
   }
