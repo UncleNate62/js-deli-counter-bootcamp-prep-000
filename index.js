@@ -18,10 +18,7 @@ function currentLine(katzDeli) {
   var katzDeliLineDisplay = "The line is currently: ";
   if (katzDeli.length > 0) {
     for (let i = 0; i < katzDeli.length; i++) {
-      katzDeliLineDisplay = katzDeliLineDisplay + (i + 1) + ". " + katzDeli[i];
-      if (i < katzDeli.length) {
-        katzDeliLineDisplay = katzDeliLineDisplay + ", ";
-      }
+      katzDeliLineDisplay = katzDeliLineDisplay + (i + 1) + ". " + katzDeli[i] + ", "
   }
   return katzDeliLineDisplay
   }
