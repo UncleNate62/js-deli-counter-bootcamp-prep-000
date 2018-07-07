@@ -19,9 +19,6 @@ function currentLine(katzDeli) {
   if (katzDeli.length > 0) {
     for (let i = 0; i < katzDeli.length; i++) {
       katzDeliLineDisplay = katzDeliLineDisplay + (i + 1) + ". " + katzDeli[i];
-      do {
-        katzDeliLineDisplay = katzDeliLineDisplay + ", ";
-      } while ((i + 1) != katzDeli.length)
     }
   return katzDeliLineDisplay
   }
