@@ -20,7 +20,7 @@ function currentLine(katzDeli) {
     for (let i = 0; i < katzDeli.length; i++) {
       katzDeliLineDisplay = katzDeliLineDisplay + (i + 1) + ". " + katzDeli[i] + ", ";
     }
-  return katzDeliLineDisplay.substring()
+  return katzDeliLineDisplay.substring(0, (katzDeliLineDisplay.length - 2)
   }
   else {
     return "The line is currently empty."
